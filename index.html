@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ed Bailey &middot; Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+
+    <!--<link rel="stylesheet/less" type="text/css" href="bootstrap/less/bootstrap.less">-->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/font-awesome.css" rel="stylesheet">
+    <style>
+      body {
+        background: #eee;
+      }
+      .container {
+        position: fixed;
+        height: 450px;
+        width:650px;
+        top: 50%;
+        margin-top:-250px;
+        left: 50%;
+        margin-left:-350px;
+
+        padding:25px;
+
+        background:#fff;
+        border: 1px solid #d9d9d9;
+        border-radius: 5px;
+        -webkit-box-shadow: 0 8px 20px -6px #d9d9d9;
+           -moz-box-shadow: 0 8px 20px -6px #d9d9d9;
+                box-shadow: 0 8px 20px -6px #d9d9d9;
+      }
+      .container h1 img {
+        position: relative;
+        right:-95px;
+        top:-20px;
+      }
+      .bar {
+        width:650px;
+        height: 20px;
+        padding-bottom:5px;
+        border-bottom: 1px solid;
+        border-color:#d9d9d9;
+        margin-left:-25px;
+        padding-left: 25px;
+        padding-right:25px;
+        margin-bottom: 10px;
+      }
+    </style>
+
+      <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="bootstrap/ico/favicon.png">
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+      <h1>
+        Ed Bailey <small>Web Developer</small>
+        <!--<img src="img/html5-badge-h-css3.png" width="133" height="64" alt="HTML5 Powered with CSS3 / Styling" class="pull-right">-->
+      </h1>
+      <div class="bar">
+        <a href="mailto:mail@edbailey.me" class="muted"><i class="icon-envelope-alt"></i> mail@edbailey.me</a> 
+         <span class="pull-right">
+          <span class="badge">PHP</span> <span class="badge">MySQL</span> <span class="badge">HTML 5</span> <span class="badge">CSS 3</span> <span class="badge">jQuery</span>
+        </span>
+      </div>
+    </header>
+    <div id="Projects" class="carousel slide">
+      <ol class="carousel-indicators">
+        <li data-target="#Projects" data-slide-to="0" class="active"></li>
+        <li data-target="#Projects" data-slide-to="1"></li>
+        <li data-target="#Projects" data-slide-to="2"></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+        <div class="active item" style="height:330px; text-align:center; padding-top:50px;">
+          <h1>Featured Projects</h1>
+          <h2>A selection of the projects I have worked on or am working on.</h2>
+          <p>More details at <a href="cv.pdf">/cv.pdf</a>
+        </div>
+        <div class="item">
+          <img src="img/uc_ticket.png" alt="Union Computers Website">
+          <div class="carousel-caption">
+            <h4>Union Computers</h4>
+            <p>A complete redesign from stock OSTicket, creating an improved user experience and adding features such as SMS functionality and item storage management.</p>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/d20sheet.png" alt="d20 Sheet">
+          <div class="carousel-caption">
+            <h4>d20 Sheet</h4>
+            <p>An automated, interactive character sheet for the Pathfinder RPG. Coded from scratch in PHP.
+              <br/>Currently in development.
+            </p>
+          </div></div>
+      </div>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#Projects" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#Projects" data-slide="next">&rsaquo;</a>
+    </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="bootstrap/js/less.js"></script>-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+  </body>
+</html>
